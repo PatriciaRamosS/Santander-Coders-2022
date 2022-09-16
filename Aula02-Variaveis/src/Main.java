@@ -5,14 +5,14 @@ public class Main {
         nome = "Let's Code";
         System.out.println("Olá, " + nome);
 
-        float a;
-        float b = 2;
+        int a;
+        int b = 2;
         a = 3;
 
-        float soma = a + b;
-        float subtracao = a - b;
-        float multiplicacao = a * b;
-        float divisao = a / b;
+        int soma = a + b;
+        int subtracao = a - b;
+        int multiplicacao = a * b;
+        float divisao = ((float)a / b);
 
 
         System.out.println("\n");
