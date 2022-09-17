@@ -1,0 +1,26 @@
+Java é uma linguagem compilada, no qual necessita de um ambiente próprio para a execução (IDE). 
+
+JRE - Java Runtime Environment - Ambiente de execução
+JDK - Java Development Kit - Kit de desenvolvimento
+
+Sigla 
+
+LTS long-term support - Suporte de longo prazo
+
+------
+
+Comandos CMD
+
+java -version
+
+jshell
+
+System.out.println("Hello World");
+
+
+------
+
+Ferramenta de desenvolvimento
+
+IDE - Integrated Development Environment
+
