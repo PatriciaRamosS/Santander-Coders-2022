@@ -30,8 +30,8 @@ public class Main {
 
         String[] letras = {"A", "B", "C", "D", "E"};
 
-        for(int i=0; i < letras.length; i++) {
-            System.out.println(letras[i]);
+        for(int k=0; k < letras.length; k++) {
+            System.out.println(letras[k]);
         }
 
         System.out.println("\n");
@@ -39,11 +39,13 @@ public class Main {
         System.out.println(Arrays.toString(letras));
 
         int[] auxiliar = {9, 10, 12, 25, 2};
-        int maior = auxiliar[0], menor = auxiliar[0], media = 0;
-        int j;
-        for(j=0; j < letras.length; j++) {
+        int maior = auxiliar[0];
+        int menor = auxiliar[0];
+        int media = 0;
+
+        for(int j=0; j < auxiliar.length; j++) {
             if(auxiliar[j] > maior) {
-                maior = numeros[j];
+                maior = auxiliar[j];
             }
             if(auxiliar[j] < menor) {
                 menor = auxiliar[j];
