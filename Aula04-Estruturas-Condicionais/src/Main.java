@@ -1,4 +1,3 @@
-
 import java.util.Scanner; // 1. importando a classe Scanner
 
 public class Main {
