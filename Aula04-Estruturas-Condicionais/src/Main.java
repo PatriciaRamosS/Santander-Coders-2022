@@ -5,19 +5,19 @@ public class Main {
 
         Scanner nota = new Scanner( System.in );  // 2. instanciando e criando um objeto Scanner
 
-        int exame1, exame2, exame3, media;
+        float exame1, exame2, exame3, media;
         String aux;
 
         System.out.println("A média final será composta pelas notas dos Exames aplicados no decorrer do semestre.");
 
         System.out.println("Digite a nota do Exame 1: ");
-        exame1 = nota.nextInt();
+        exame1 = nota.nextFloat();
 
         System.out.println("Digite a nota do Exame 2: ");
-        exame2 = nota.nextInt();
+        exame2 = nota.nextFloat();
 
         System.out.println("Digite a nota do Exame 3: ");
-        exame3 = nota.nextInt();
+        exame3 = nota.nextFloat();
 
         media = ((exame1 + exame2 + exame3)/3);
 
@@ -40,10 +40,10 @@ public class Main {
                 System.out.println("Aluno Aprovado!");
                 break;
             case "B":
-                System.out.println("Média: " + (float)media);
+                System.out.println("Média: " + media);
                 System.out.println("Aluno de Recuperação!");
             case "C":
-                System.out.println("Média: " + (float)media);
+                System.out.println("Média: " + media);
                 System.out.println("Aluno de Reprovado!");
             case "D":
                 System.out.println("ERROR!");
